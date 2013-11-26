@@ -1,6 +1,5 @@
 rem *** DO NOT RUN THIS ***
-rem 用于移动用户目录
-
+rem 鐢ㄤ簬杩佺Щ鐢ㄦ埛鐩綍
 robocopy "C:\Users" "D:\Users" /E /COPYALL /XJ
 rmdir "C:\Users" /S
 mklink /J "C:\Users" "D:\Users"
